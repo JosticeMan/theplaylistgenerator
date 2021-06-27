@@ -6,10 +6,9 @@ import Container from "@material-ui/core/Container";
 export class SearchBar extends Component {
 
     handlePlaylistQueryChange = (e) => {
-        if(e) {
-
+        if(e.key === "Enter") {
+            const value = e.target.value;
         }
-        const value = e.target.value;
     }
 
     render() {
