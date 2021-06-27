@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56313b86-be33-419e-9ad7-8e0939017f39" name="Default Changelist" comment="[PL-1] Base code">
+      <change afterPath="$PROJECT_DIR$/server/config/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/searchAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/searchAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchBar.js" afterDir="false" />

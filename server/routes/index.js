@@ -11,8 +11,8 @@ router.get('/', function(req, res, next) {
 
 router.post('/youtube', function(req, res, next) {
 
-  youtubeIntegration.searchTerm(req.body.searchterm);
-  res.send("jackie, do you know where your children are?");
+  res.send(youtubeIntegration.searchTerm(req.body.searchterm));
+  // res.send("jackie, do you know where your children are?");
 });
 
 
