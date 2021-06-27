@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { searches } from '../constants/Search';
 
-const ENDPOINT_BASE = 'localhost:8080';
+const ENDPOINT_BASE = 'http://localhost:8080';
 
 export const getPlaylist = (keyword) => {
     return async dispatch => {

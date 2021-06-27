@@ -6,7 +6,7 @@ const youtubeIntegration = new YoutubeIntegration();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Node baby' });
+  res.render('index', { title: 'The Playlist Generator' });
 });
 
 router.post('/youtube', function(req, res, next) {

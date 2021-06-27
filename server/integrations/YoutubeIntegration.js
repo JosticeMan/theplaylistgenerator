@@ -15,6 +15,8 @@ setTimeout(()=>{console.log(authResponse)}, 50);
 class YoutubeIntegration {
 
     searchTerm(term) {
+        const service = google.youtube('v3');
+        service.channel.list()
         const fetch = require('node-fetch');
         console.log("Youtube API Attempt")
         fetch('https://youtube.googleapis.com/youtube/v3/search?part=what%20is%20up&key=[AIzaSyDQ6Ds8NnLQsAQk1-aQlYE6vgyt61u69fU]'

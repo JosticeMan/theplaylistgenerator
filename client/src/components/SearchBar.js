@@ -7,7 +7,7 @@ export class SearchBar extends Component {
 
     handlePlaylistQueryChange = (e) => {
         if(e.key === "Enter") {
-            const getPlaylist = this.props;
+            const { getPlaylist } = this.props;
             const value = e.target.value;
             getPlaylist(value);
         }

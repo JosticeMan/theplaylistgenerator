@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56313b86-be33-419e-9ad7-8e0939017f39" name="Default Changelist" comment="[PL-1] Base code">
-      <change afterPath="$PROJECT_DIR$/server/config/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/searchAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/searchAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/integrations/YoutubeIntegration.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/integrations/YoutubeIntegration.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.start client">
+  <component name="RunManager" selected="npm.start server">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
