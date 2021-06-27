@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import {LandingPage} from "../components/LandingPage";
+import {SearchBar} from "../components/SearchBar";
 
 const mapStateToProps = (state, ownProps) => ({
 
@@ -9,7 +9,7 @@ const mapDispatchToProps = {
 
 }
 
-export const LandingPageContainer = connect(
+export const SearchBarContainer = connect(
     mapStateToProps,
     mapDispatchToProps
-)(LandingPage)
+)(SearchBar)

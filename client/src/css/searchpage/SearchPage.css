@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@500&display=swap');
+
+.landing-root-container {
+    color: #1F363D;
+}
+
+.landing-root-container .header-container {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.landing-root-container .subheader-container {
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bold;
+}
