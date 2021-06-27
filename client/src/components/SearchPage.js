@@ -11,7 +11,7 @@ export class SearchPage extends Component {
                     Playlist Generator
                 </Container>
                 <Container className="subheader-container">
-                    Enter a query here to search for a playlist
+                    Enter a query here to generate a playlist
                 </Container>
                 <SearchBarContainer />
             </div>

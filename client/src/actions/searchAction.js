@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { searches } from '../constants/Search';
-// import {getAuthenticationToken} from "../../common/cache";
 
 const ENDPOINT_BASE = 'localhost:8080';
 
