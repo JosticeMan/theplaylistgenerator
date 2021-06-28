@@ -10,10 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/youtube', function(req, res, next) {
-
-  res.send(youtubeIntegration.searchTerm(req.body.searchterm));
-  // res.send("jackie, do you know where your children are?");
+  youtubeIntegration.searchTerm(req.body.searchterm, res);
 });
-
 
 module.exports = router;

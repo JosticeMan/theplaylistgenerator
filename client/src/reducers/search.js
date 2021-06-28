@@ -1,7 +1,7 @@
 import { searches } from '../constants/Search';
 
 const initialState = {
-    playlist : [],
+    playlist : "",
     retrieving : false,
     status : null
 };
@@ -11,8 +11,8 @@ export const search = (state = initialState, action) => {
         case searches.GET_PLAYLIST_REQUEST:
             return {
                 ...state,
-                playlist : [],
-                retriving : true,
+                playlist : "",
+                retrieving : true,
                 status : 'Getting playlist...'
             }
 
@@ -27,7 +27,7 @@ export const search = (state = initialState, action) => {
         case searches.GET_PLAYLIST_FAILURE:
             return {
                 ...state,
-                playlist : [],
+                playlist : "",
                 retrieving : false,
                 status : 'Get playlist failed!'
             }

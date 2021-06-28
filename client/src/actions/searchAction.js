@@ -18,7 +18,7 @@ export const getPlaylist = (keyword) => {
                 'pragma': 'no-cache'
             },
             data : {
-                keyword : keyword
+                searchterm : keyword
             }
         }).then( async(response)  => {
             if (response.status == 200) {
