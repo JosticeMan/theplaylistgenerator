@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@500&display=swap');
 
 .landing-root-container {
+    text-align: center;
     color: #1F363D;
 }
 
 .landing-root-container .header-container {
-    text-align: center;
     font-size: 4em;
     font-weight: bold;
     margin-top: 50px;
@@ -13,7 +13,18 @@
 }
 
 .landing-root-container .subheader-container {
-    text-align: center;
     font-size: 1.75em;
     font-weight: bold;
+}
+
+.landing-root-container .playlist-container {
+    margin-top: 50px;
+}
+
+.landing-root-container .playlist-option-select {
+    max-height: 50px;
+}
+
+.landing-root-container .bar-container {
+    margin-top: 50px;
 }

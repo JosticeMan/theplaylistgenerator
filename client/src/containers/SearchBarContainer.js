@@ -3,7 +3,7 @@ import { getPlaylist } from "../actions/searchAction";
 import {SearchBar} from "../components/SearchBar";
 
 const mapStateToProps = (state, ownProps) => ({
-    playlist: state.search.playlist
+
 })
 
 const mapDispatchToProps = {

@@ -1,13 +1,22 @@
 import axios from 'axios';
 import { searches } from '../constants/Search';
+import { SearchBarConstants } from "../common/constants";
 
 const ENDPOINT_BASE = 'http://localhost:8080';
 
-export const getPlaylist = (keyword) => {
+export const getPlaylist = (keyword, playlistOption) => {
     return async dispatch => {
         dispatch({
             type: searches.GET_PLAYLIST_REQUEST
         });
+
+        if(playlistOption !== 0) {
+            dispatch({
+                type : searches.GET_PLAYLIST_SUCCESS,
+                playlist : SearchBarConstants.SELECT_URLS[playlistOption]
+            });
+            return;
+        }
 
         await axios({
             method : 'POST',

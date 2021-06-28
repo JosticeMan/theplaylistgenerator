@@ -1,11 +1,10 @@
 const axios = require("axios");
+const { YOUTUBE_API_KEY } = require("../config/config");
 
-
-const apikey = "AIzaSyAKbrbVkfYltCUUIXsWIGthBlF6c85qTm0"
 class YoutubeIntegration {
 
     searchTerm(term, res) {
-        const url = `https://youtube.googleapis.com/youtube/v3/search?q=${term}%20playlist&key=${apikey}&maxResults=50`;
+        const url = `https://youtube.googleapis.com/youtube/v3/search?q=${term}%20playlist&key=${YOUTUBE_API_KEY}&maxResults=50`;
 
         axios.get(url).then(results => {
             res.send(this.returnPlaylist(results.data.items));
@@ -17,12 +16,16 @@ class YoutubeIntegration {
             return result.id.kind === "youtube#playlist";
         });
         return filteredResults && filteredResults.length > 0 ?
-            this.formatPlaylistIdUrl(filteredResults[0].id.playlistId) :
-            "https://www.youtube.com/playlist?list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj";
+            this.formatPlaylistIdUrl(filteredResults[this.getRandomInt(filteredResults.length - 1)].id.playlistId) :
+            "https://www.youtube.com/embed/playlist?list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj";
+    }
+
+    getRandomInt(max) {
+        return Math.floor(Math.random() * max);
     }
 
     formatPlaylistIdUrl(playlistId) {
-        return `https://www.youtube.com/playlist?list=${playlistId}`;
+        return `https://www.youtube.com/embed/playlist?list=${playlistId}`;
     }
 
 }

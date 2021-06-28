@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const whitelist = ['http://localhost:3000', 'https://theplaylistgenerator.tech', 'http://theplaylistgenerator.tech'];
+const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://josticeman.github.io/playlistgenerator/', 'http://josticeman.github.io/playlistgenerator/', 'https://theplaylistgenerator.tech', 'http://theplaylistgenerator.tech'];
 const corsOptions = {
     origin: function (origin, callback) {
         // logger.info("ORIGIN", origin);
