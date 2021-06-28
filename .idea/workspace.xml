@@ -10,28 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56313b86-be33-419e-9ad7-8e0939017f39" name="Default Changelist" comment="[PL-12] Connected backend w frontend">
-      <change afterPath="$PROJECT_DIR$/client/src/common/constants.js" afterDir="false" />
+    <list default="true" id="56313b86-be33-419e-9ad7-8e0939017f39" name="Default Changelist" comment="[PL-14] Final Changes &amp; Touchups">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/searchAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/searchAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SearchPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/containers/SearchBarContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/containers/SearchBarContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/containers/SearchPageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/containers/SearchPageContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/css/searchbar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/searchbar/SearchBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/css/searchpage/SearchPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/searchpage/SearchPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/integrations/YoutubeIntegration.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/integrations/YoutubeIntegration.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/public/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/css/main.8173aa73.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/css/main.8173aa73.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/2.715b46e0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/2.715b46e0.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/2.715b46e0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/main.477ee936.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/main.477ee936.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +86,7 @@
       <workItem from="1624823072102" duration="196000" />
       <workItem from="1624823392264" duration="1906000" />
       <workItem from="1624825320755" duration="610000" />
+      <workItem from="1624845418658" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="[PL-1] Base code">
       <created>1624823026827</created>
@@ -151,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624840199393</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[PL-14] Final Changes &amp; Touchups">
+      <created>1624844526968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624844526968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +170,8 @@
     <MESSAGE value="[PL-2] FOLLOW PART 2" />
     <MESSAGE value="[PL-3] Serverside Setup" />
     <MESSAGE value="[PL-12] Connected backend w frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PL-12] Connected backend w frontend" />
+    <MESSAGE value="[PL-14] Final Changes &amp; Touchups" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PL-14] Final Changes &amp; Touchups" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624823835809">
@@ -188,34 +182,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624823416676" />
-    <state x="629" y="315" key="Github.Dialog.Accounts.Choose" timestamp="1624840204085">
+    <state x="629" y="315" key="Github.Dialog.Accounts.Choose" timestamp="1624844540398">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="629" y="315" key="Github.Dialog.Accounts.Choose/0.0.1536.824@0.0.1536.824" timestamp="1624840204085" />
-    <state width="757" height="51" key="GridCell.Tab.0.bottom" timestamp="1624844231265">
+    <state x="629" y="315" key="Github.Dialog.Accounts.Choose/0.0.1536.824@0.0.1536.824" timestamp="1624844540398" />
+    <state width="757" height="505" key="GridCell.Tab.0.bottom" timestamp="1624845401537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="51" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624844231265" />
-    <state width="757" height="51" key="GridCell.Tab.0.center" timestamp="1624844231265">
+    <state width="757" height="505" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624845401537" />
+    <state width="757" height="505" key="GridCell.Tab.0.center" timestamp="1624845401537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="51" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624844231265" />
-    <state width="757" height="51" key="GridCell.Tab.0.left" timestamp="1624844231265">
+    <state width="757" height="505" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624845401537" />
+    <state width="757" height="505" key="GridCell.Tab.0.left" timestamp="1624845401537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="51" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624844231265" />
-    <state width="757" height="51" key="GridCell.Tab.0.right" timestamp="1624844231265">
+    <state width="757" height="505" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624845401537" />
+    <state width="757" height="505" key="GridCell.Tab.0.right" timestamp="1624845401537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="51" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624844231265" />
+    <state width="757" height="505" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624845401537" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1624823413247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1624823413247" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1624840200561">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1624844527869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1624840200561" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1624844527869" />
     <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1624823742877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

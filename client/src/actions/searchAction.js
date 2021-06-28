@@ -2,7 +2,7 @@ import axios from 'axios';
 import { searches } from '../constants/Search';
 import { SearchBarConstants } from "../common/constants";
 
-const ENDPOINT_BASE = 'http://localhost:8080';
+const ENDPOINT_BASE = 'https://theplaylistgenerator.herokuapp.com';
 
 export const getPlaylist = (keyword, playlistOption) => {
     return async dispatch => {
